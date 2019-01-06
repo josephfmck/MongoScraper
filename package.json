@@ -1,5 +1,5 @@
 {
-  "name": "mongoscraper",
+  "name": "mongo-scraper",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,19 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josephfmck/MongoScraper.git"
+    "url": "git+https://github.com/josephfmck/mongo-scraper.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/josephfmck/MongoScraper/issues"
+    "url": "https://github.com/josephfmck/mongo-scraper/issues"
   },
-  "homepage": "https://github.com/josephfmck/MongoScraper#readme",
+  "homepage": "https://github.com/josephfmck/mongo-scraper#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^5.4.2"
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
   }
 }
